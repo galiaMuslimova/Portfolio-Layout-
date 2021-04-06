@@ -1,0 +1,29 @@
+.about {
+  height: 506px;
+
+  &_title {
+    padding-top: 120px;
+  }
+
+  &_text {
+    padding-top: 18px;
+    width: 485px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .about {
+    height: 491px;
+  
+    &_title {
+      padding-top: 81px;
+    }
+  
+    &_text {
+      padding-top: 30px;
+      max-width: 90%;
+    }
+  }
+}

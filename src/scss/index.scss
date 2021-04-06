@@ -4,17 +4,35 @@
   text-align: center;
 }
 
+.title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .page {
   font-family: sans-serif;
   color: #090909;
+
+  &_block {
+    max-width: 945px;
+    margin: auto;
+
+    &__gray {
+      background: #F6F6F6;
+    }
+  }       
 }
 
-.page_block {
-  max-width: 945px;
-  margin: auto;
+@media screen and (max-width: 480px){
+  .page {
+    &_block {
+      max-width: 317px;
 
-  @media screen and (max-width: 480px){
-    max-width: 317px;
-    margin: auto;
+      &__gray {
+        max-width: 100%;
+      }
+    }       
   }
 }
