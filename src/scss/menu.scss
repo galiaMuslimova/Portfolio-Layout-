@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  align-items: center;
+}
+
+.link-name {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+@media screen and (max-width: 480px){
+  .menu {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.photo {
+  height: 387px;
+  width: 100%;
+  background-color: gray;
+}
+
+@media screen and (max-width: 480px){
+  .photo {
+    height: 478px; 
+    }
+}
