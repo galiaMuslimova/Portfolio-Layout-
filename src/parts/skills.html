@@ -5,38 +5,18 @@
   <div class="skills_text">
     <div class="text">I have such skills as</div>
   </div>
-  <div class="skills_images">
-    <div class="skill-block">
-      <div class="skill-block_image">
-        <img src="img/js.png"/>
-      </div>
-      <div class="skill-block_name">JavaScript</div>
+  <div class="skills_content">
+    <div class="content-row">
+      @@include('skill-block.html', {'name': 'HTML', 'webRoot': 'img/html.png'})
+      @@include('skill-block.html', {'name': 'CSS', 'webRoot': 'img/css.png'})
+      @@include('skill-block.html', {'name': 'JavaScript', 'webRoot': 'img/js.png'})
+      @@include('skill-block.html', {'name': 'React', 'webRoot': 'img/react.png'})      
     </div>
-    <div class="skill-block">
-      <div class="skill-block_image">
-        <img src="img/react.png"/>
-      </div>
-      <div class="skill-block_name">React</div>
-    </div>
-    <div class="skill-block">
-      <div class="skill-block_image"></div>
-      <div class="skill-block_name">HTML</div>
-    </div>
-    <div class="skill-block">
-      <div class="skill-block_image"></div>
-      <div class="skill-block_name">CSS</div>
-    </div>
-    <div class="skill-block">
-      <div class="skill-block_image"></div>
-      <div class="skill-block_name">Git</div>
-    </div>
-    <div class="skill-block">
-      <div class="skill-block_image"></div>
-      <div class="skill-block_name">Gulp</div>
-    </div>
-    <div class="skill-block">
-      <div class="skill-block_image"></div>
-      <div class="skill-block_name">Figma</div>
+    <div class="content-row">
+      @@include('skill-block.html', {'name': 'Sass', 'webRoot': 'img/sass.png'})
+      @@include('skill-block.html', {'name': 'Git', 'webRoot': 'img/git.png'})
+      @@include('skill-block.html', {'name': 'Gulp', 'webRoot': 'img/gulp.png'})
+      @@include('skill-block.html', {'name': 'Figma', 'webRoot': 'img/figma.png'})
     </div>
   </div>
 </div>

@@ -28,6 +28,9 @@
   text-align: center;
   font-weight: bold; }
 
+.image {
+  width: 100%; }
+
 .page {
   font-family: sans-serif;
   color: #090909; }
@@ -99,23 +102,32 @@
     height: 478px;
     margin-bottom: 83px; } }
 
+.products {
+  height: 1445px; }
+  .products_title {
+    padding-top: 113px; }
+
 .skills {
   height: 610px; }
   .skills_title {
-    padding-top: 91px; }
+    padding-top: 80px; }
   .skills_text {
-    padding-top: 89px; }
-  .skills_images {
-    padding-top: 83px;
-    display: flex;
-    justify-content: space-around; }
+    padding-top: 50px; }
+
+.content-row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px; }
 
 @media screen and (max-width: 480px) {
   .skills {
-    height: 1421px; }
-    .skills_images {
-      flex-direction: column;
-      text-align: center; } }
+    height: 1920px; }
+  .content-row {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px; }
+  .skill-block_image {
+    padding-top: 80px; } }
 
 .skill-block_image {
   width: 89px;
@@ -126,7 +138,3 @@
   font-size: 14px;
   line-height: 17px;
   text-align: center; }
-
-img {
-  width: 100%; }
-
