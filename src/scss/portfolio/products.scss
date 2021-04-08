@@ -1,0 +1,20 @@
+.products {
+  height: 2253px;
+
+  &_title {
+    padding-top: 113px;
+    padding-bottom: 47px;
+  }  
+}
+
+.product-block {
+  margin-bottom: 99px;
+
+  &_image {
+    margin: 0;
+  }
+  
+  &_text {
+    padding-top: 45px;
+  }
+}

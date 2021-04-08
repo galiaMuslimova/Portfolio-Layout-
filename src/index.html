@@ -1,24 +1,31 @@
-@@include('parts/header.html')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500;700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+<body>
 
 <div class="page">
-  <div class="page_block">
-    @@include('parts/menu.html')
+  @@include('parts/home/home.html')
+  <div class="page_block page_block__gray">
+    @@include('parts/about/about.html')
   </div>
   <div class="page_block">
-    @@include('parts/person.html')
-  </div>
-  <div class="page_block">
-    @@include('parts/photo.html')
+    @@include('parts/skills/skills.html')
   </div>
   <div class="page_block page_block__gray">
-    @@include('parts/about.html')
+    @@include('parts/portfolio/products.html')
   </div>
   <div class="page_block">
-    @@include('parts/skills.html')
-  </div>
-  <div class="page_block page_block__gray">
-    @@include('parts/products.html')
+    @@include('parts/contacts/contacts.html')
   </div>
 </div>
 
-@@include('parts/footer.html')
+</body>
+</html>

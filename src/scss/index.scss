@@ -2,6 +2,10 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+
+  &__portfolio {
+    text-decoration: underline;
+  }
 }
 
 .title {
@@ -13,10 +17,18 @@
 
 .image {
   width: 100%;
+  background-color: gray;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: black;
+  height: 42px;
+  width: 180px;
 }
 
 .page {
-  font-family: sans-serif;
+  font-family: Arimo;
   color: #090909;
 
   &_block {

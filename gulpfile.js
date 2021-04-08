@@ -12,7 +12,7 @@ function html() {
 }
 
 function scss() {
-  return src('src/scss/**.scss')
+  return src('src/scss/**/*.scss')
   .pipe(sass())
   .pipe(concat('index.css'))
   .pipe(dest('dist'))

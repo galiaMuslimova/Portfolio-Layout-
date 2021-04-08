@@ -1,3 +1,38 @@
+.text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center; }
+  .text__portfolio {
+    text-decoration: underline; }
+
+.title {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: bold; }
+
+.image {
+  width: 100%;
+  background-color: gray; }
+
+.btn {
+  border-radius: 20px; }
+
+.page {
+  font-family: Arimo;
+  color: #090909; }
+  .page_block {
+    max-width: 945px;
+    margin: auto; }
+    .page_block__gray {
+      background: #F6F6F6; }
+
+@media screen and (max-width: 480px) {
+  .page_block {
+    max-width: 317px; }
+    .page_block__gray {
+      max-width: 100%; } }
+
 .about {
   height: 506px; }
   .about_title {
@@ -17,34 +52,17 @@
       padding-top: 30px;
       max-width: 90%; } }
 
-.text {
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center; }
-
-.title {
-  font-size: 34px;
-  line-height: 42px;
-  text-align: center;
-  font-weight: bold; }
-
-.image {
-  width: 100%; }
-
-.page {
-  font-family: sans-serif;
-  color: #090909; }
-  .page_block {
-    max-width: 945px;
-    margin: auto; }
-    .page_block__gray {
-      background: #F6F6F6; }
-
-@media screen and (max-width: 480px) {
-  .page_block {
-    max-width: 317px; }
-    .page_block__gray {
-      max-width: 100%; } }
+.contacts {
+  height: 622px; }
+  .contacts_title {
+    margin-top: 114px; }
+  .contacts_text {
+    margin-top: 20px; }
+  .contacts_button {
+    margin: 29px auto 0px auto;
+    width: 180px; }
+  .contacts_social {
+    display: flex; }
 
 .menu {
   display: flex;
@@ -103,16 +121,24 @@
     margin-bottom: 83px; } }
 
 .products {
-  height: 1445px; }
+  height: 2253px; }
   .products_title {
-    padding-top: 113px; }
+    padding-top: 113px;
+    padding-bottom: 47px; }
+
+.product-block {
+  margin-bottom: 99px; }
+  .product-block_image {
+    margin: 0; }
+  .product-block_text {
+    padding-top: 45px; }
 
 .skills {
   height: 610px; }
   .skills_title {
     padding-top: 80px; }
   .skills_text {
-    padding-top: 50px; }
+    padding-top: 35px; }
 
 .content-row {
   display: flex;

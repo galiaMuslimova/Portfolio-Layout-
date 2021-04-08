@@ -1,0 +1,20 @@
+.contacts {
+  height: 622px;
+
+  &_title {
+    margin-top: 114px;
+  }
+
+  &_text {
+    margin-top: 20px;
+  }
+
+  &_button {
+    margin: 29px auto 0px auto;
+    width: 180px;
+  }
+
+  &_social {
+    display: flex;
+  }
+}
