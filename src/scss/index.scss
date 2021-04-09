@@ -72,6 +72,13 @@ span {
     }       
   }
 
+  .text {
+    &__gray {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
   .image {
     &__mobile {
       display: block;

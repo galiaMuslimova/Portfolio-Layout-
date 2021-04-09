@@ -6,45 +6,59 @@
   }
 
   &_text {
-    margin-top: 35px;
+    padding-top: 35px;
   }
 
   &_content {
     margin-top: 83px;
-    display: flex;
+    display: flex;    
     align-items: center;
     justify-content: space-around;
   }
 }
 
-@media screen and (max-width: 480px){
-  .skills {
-    height: 1920px;
-  }
-
-  .skill-block {
-    &_image {
-      padding-top: 80px;
-    }
-  }
-}
-
 .skill-block {
+  max-width: 166px;
+
   &_image {
     width: 89px;
     height: 89px;
     padding-bottom: 23px;
+    margin: 0 auto 0 auto;
   }
 
   &_name {
     font-size: 14px;
     line-height: 17px;
+    max-width: 80px;
+    margin: 0 auto 0 auto;
+    text-align: center;
   }
 
   &_stars {
     display: flex;
     margin-top: 41px;
+    justify-content: space-between;
   }
 }
 
+@media screen and (max-width: 480px){
+  .skills {
+    height: 1421px;
 
+    &_title {
+      padding-top: 83px;
+    }
+
+    &_text {
+      padding-top: 50px;
+    }
+
+    &_content {
+      margin-top: 71px;
+      height: 1068px;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}

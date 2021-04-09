@@ -18,3 +18,25 @@
     padding-top: 45px;
   }
 }
+
+@media screen and (max-width: 480px){
+  .products {
+    height: 1118px;
+
+    &_title {
+      padding-top: 81px;
+      padding-bottom: 65px;
+    }  
+  }
+
+  .product-block {
+    margin-bottom: 78px;
+    &_image {
+      max-height: 176px;
+    }
+
+    &_text {
+      padding-top: 33px;
+    }
+  }
+}

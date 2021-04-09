@@ -1,3 +1,9 @@
 .home {
   height: 768px;
 }
+
+@media screen and (max-width: 480px){
+  .home {
+    height: 836px;
+  }
+}
