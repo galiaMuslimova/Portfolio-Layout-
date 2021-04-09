@@ -2,19 +2,34 @@
   height: 622px;
 
   &_title {
-    margin-top: 114px;
+    padding-top: 114px;
   }
 
   &_text {
-    margin-top: 20px;
+    max-width: 275px;
+    margin: 20px auto 0px auto;
   }
 
   &_button {
     margin: 29px auto 0px auto;
-    width: 180px;
+    width: 180px;   
+    font-weight: bold; 
   }
 
   &_social {
     display: flex;
+    justify-content: space-between;
+    margin: 80px auto 0px auto; 
+    max-width: 340px;   
   }
+
+  &_social-text {
+    max-width: 243px;
+    margin: 45px auto 0px auto;
+  }
+}
+
+.social-image {
+  width: 40px;
+  height: 40px;
 }

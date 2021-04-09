@@ -6,25 +6,20 @@
   }
 
   &_text {
-    padding-top: 35px;
+    margin-top: 35px;
   }
-}
 
-.content-row {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 50px;
+  &_content {
+    margin-top: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }
 
 @media screen and (max-width: 480px){
   .skills {
     height: 1920px;
-  }
-
-  .content-row {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 0px;
   }
 
   .skill-block {
@@ -44,6 +39,12 @@
   &_name {
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
+  }
+
+  &_stars {
+    display: flex;
+    margin-top: 41px;
   }
 }
+
+

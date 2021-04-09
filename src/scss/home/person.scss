@@ -1,8 +1,9 @@
 .person {
-  height: 188px;
+  height: 118px;
   width: 100%; 
   display: flex;
-  padding-bottom: 50px;
+  margin: 40px 0px 50px 0px;
+  justify-content: space-between;
   align-items: flex-end;
 
   &_name {
@@ -10,10 +11,12 @@
   }
 
   &_position {
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 10px;
     width: 165px
+  }
+
+  &_language {
+    height: 50px;
   }
 }
 

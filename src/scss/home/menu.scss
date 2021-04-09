@@ -3,12 +3,17 @@
   justify-content: space-between;
   height: 88px;
   align-items: center;
+  border-bottom: 1px solid #828282;
 }
 
 .link-name {
   font-size: 18px;
   line-height: 22px;
-  color: #000000;
+  color: #828282;
+
+  &__active {
+    color: black;
+  }
 }
 
 @media screen and (max-width: 480px){

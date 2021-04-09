@@ -3,4 +3,10 @@
     <img class="image" src="@@webRoot"/>
   </div>
   <div class="skill-block_name">@@name</div>
+  <div class="skill-block_stars">    
+    @@for (var i =0; i < 5; i++) {  
+      @@include('star.html', {'i': `+i+`, 'star': '@@star'})
+    }
+  </div>
 </div>
+

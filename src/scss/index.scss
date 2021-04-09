@@ -6,6 +6,22 @@
   &__portfolio {
     text-decoration: underline;
   }
+
+  &__gray {
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__rotate {
+    transform: rotate(-90deg);
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+span {
+  color: #828282;
 }
 
 .title {
@@ -17,19 +33,23 @@
 
 .image {
   width: 100%;
-  background-color: gray;
+
+  &__mobile {
+    display: none;
+  }
 }
 
 .btn {
   border-radius: 20px;
   background-color: black;
+  color: white;
   height: 42px;
   width: 180px;
 }
 
 .page {
   font-family: Arimo;
-  color: #090909;
+  color: #070707;
 
   &_block {
     max-width: 945px;
@@ -50,5 +70,15 @@
         max-width: 100%;
       }
     }       
+  }
+
+  .image {
+    &__mobile {
+      display: block;
+    }
+
+    &__desktop {
+      display: none;
+    }
   }
 }
