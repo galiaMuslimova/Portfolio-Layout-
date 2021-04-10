@@ -7,18 +7,24 @@
   <link rel="stylesheet" href="index.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <title>Portfolio</title>
 </head>
 <body>
 
 <div class="page">
   <div class="page_block home">
+  <div class="header">
+  <div class="menu-btn">
+    <span class="menu-span"></span>  
+  </div>
   <div class="menu">
-  <div href="#" class="menu_link"><a class="link-name link-name__active">Home</a></div>
-  <div href="#" class="menu_link"><a class="link-name">About me</a></div>
-  <div href="#" class="menu_link"><a class="link-name">Skills</a></div>
-  <div href="#" class="menu_link"><a class="link-name">Portfolio</a></div>
-  <div href="#" class="menu_link"><a class="link-name">Contacts</a></div>
+    <div href="#" class="menu_link"><a class="link-name link-name__active">Home</a></div>
+    <div href="#" class="menu_link"><a class="link-name">About me</a></div>
+    <div href="#" class="menu_link"><a class="link-name">Skills</a></div>
+    <div href="#" class="menu_link"><a class="link-name">Portfolio</a></div>
+    <div href="#" class="menu_link"><a class="link-name">Contacts</a></div>  
+  </div>  
 </div>
   <div class="person">
   <div class="person_name">
@@ -28,7 +34,9 @@
     <div class="text">UX | UI designer 24 years old, Minsk</div>
   </div>
   <div class="person_language">
-    <div class="text text__rotate"><span>RU</span> | ENG</div>
+    <div class="text text__rotate">
+      <span class="span">RU</span> | <span class="span span__active">ENG</span>
+    </div>
   </div>  
 </div>
 
@@ -336,6 +344,8 @@
 </div>
   </div>
 </div>
+
+<script src="index.js"></script>
 
 </body>
 </html>

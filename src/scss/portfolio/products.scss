@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   .products {
     height: 1118px;
 
@@ -33,6 +33,8 @@
     margin-bottom: 78px;
     &_image {
       max-height: 176px;
+      max-width: 316px;
+      margin: 0px auto 0px auto;
     }
 
     &_text {

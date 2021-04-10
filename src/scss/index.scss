@@ -1,7 +1,7 @@
 .text {
   font-size: 18px;
   line-height: 22px;
-  text-align: center;
+  text-align: center;  
 
   &__portfolio {
     text-decoration: underline;
@@ -14,14 +14,15 @@
   }
 
   &__rotate {
-    transform: rotate(-90deg);
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
+    display: none;
 
-span {
-  color: #828282;
+    &__active {
+      display: block;
+      transform: rotate(-90deg);
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
 }
 
 .title {
@@ -50,6 +51,7 @@ span {
 .page {
   font-family: Arimo;
   color: #070707;
+  cursor: default;
 
   &_block {
     max-width: 945px;
@@ -61,7 +63,7 @@ span {
   }       
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
   .page {
     &_block {
       max-width: 317px;
@@ -77,6 +79,11 @@ span {
       font-size: 18px;
       line-height: 22px;
     }
+
+    &__rotate {
+      font-size: 34px;
+      line-height: 42px; 
+    }
   }
 
   .image {
@@ -87,5 +94,13 @@ span {
     &__desktop {
       display: none;
     }
+  }
+
+  .hide {
+    color: red;
+  }
+
+  .show {
+    display: block;
   }
 }

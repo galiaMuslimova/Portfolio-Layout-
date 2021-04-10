@@ -17,6 +17,7 @@
 
   &_language {
     height: 50px;
+    cursor: pointer;
   }
 }
 
@@ -25,7 +26,15 @@
   line-height: 58px;
 }
 
-@media screen and (max-width: 480px){
+.span {
+  color: #828282;
+
+  &__active {
+     color: black;
+  }
+}
+
+@media screen and (max-width: 768px){
   .person {
     height: 275px;
     margin: 0px;
@@ -42,7 +51,11 @@
     }
 
     &_language {
-      display: none;
+      position: absolute;
+      top: 611px;
+      z-index: 2;
+      transform: rotate(180deg);   
+      right: 0px;  
     }
   }
 }
