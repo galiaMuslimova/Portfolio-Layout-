@@ -1,3 +1,3 @@
 # portfolio
 
-https://galiamuslimova.github.io/portfolio/dist/index.html
+https://galiamuslimova.github.io/Portfolio-Layout-/dist/index.html
